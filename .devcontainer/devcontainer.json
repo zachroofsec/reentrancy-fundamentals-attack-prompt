@@ -1,7 +1,7 @@
 {
   "image": "ghcr.io/blockbash/reentrancy-fundamentals-attack-prompt:latest",
   "name": "Blockbash - Reentrancy Fundamentals Attack Lab",
-  "runArgs": ["--name=reentrancy-fundamentals-attack-prompt",],
-  "workspaceFolder": "/contracts",
-  "workspaceMount": "target=/contracts,type=volume"
+  "postCreateCommand": "ln -s -f /contracts /workspaces/reentrancy-fundamentals-attack-prompt",
+  "runArgs": ["--name=reentrancy-fundamentals-attack-prompt",]
+
 }

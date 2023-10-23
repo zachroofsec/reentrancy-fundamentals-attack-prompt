@@ -1,5 +1,4 @@
 {
   "image": "ghcr.io/blockbash/reentrancy-fundamentals-attack-prompt:latest",
   "name": "Blockbash - Reentrancy Fundamentals Attack Lab",
-  "postCreateCommand": "rm -rf /workspaces/reentrancy-fundamentals-attack-prompt && ln -s -f /contracts /workspaces/reentrancy-fundamentals-attack-prompt",
 }

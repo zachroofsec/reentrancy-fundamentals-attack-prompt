@@ -1,0 +1,5 @@
+{
+  "image": "ghcr.io/blockbash/reentrancy-fundamentals-attack-prompt:latest",
+  "runArgs": ["--name=reentrancy-fundamentals-attack-prompt",],
+  "workspaceFolder": "/contracts",
+}

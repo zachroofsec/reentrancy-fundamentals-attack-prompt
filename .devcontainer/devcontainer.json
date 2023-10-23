@@ -1,4 +1,6 @@
 {
   "image": "ghcr.io/blockbash/reentrancy-fundamentals-attack-prompt:latest",
   "name": "Blockbash - Reentrancy Fundamentals Attack Lab",
+  "runArgs": ["--name=reentrancy-fundamentals-attack-prompt",],
+  "workspaceMount": "source=reentrancy-fundamentals-attack-prompt,type=volume"
 }
